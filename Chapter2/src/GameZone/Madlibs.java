@@ -33,7 +33,7 @@ public class Madlibs {
 		c = a - b;
 		
 		System.out.print("The " + color + " Dragon is the " + wordEst + " Dragon of all.");
-		System.out.print("\n It has " +);
+		System.out.print("\n It has " );
 	}
 
 }
