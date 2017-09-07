@@ -10,9 +10,10 @@ public class Madlibs {
 		String bodyPartPlural;
 		String anAnimal, aNoun, PluralNoun;
 		
-		int a, b, c;
+		String a, b, c;
+	
 		
-		c = a - b;
+	
 		
 		Scanner input = new Scanner(System.in);
 		
@@ -28,12 +29,14 @@ public class Madlibs {
 		aNoun = input.nextLine();
 		System.out.print(" enter a plural noun");
 		PluralNoun = input.nextLine();
-		
-		
-		c = a - b;
+		System.out.print("enter a number");
+		a = input.nextLine();
+		System.out.print(b);
+	
 		
 		System.out.print("The " + color + " Dragon is the " + wordEst + " Dragon of all.");
-		System.out.print("\n It has " );
+		System.out.print("\n It has " +  c , bodyPartPlural + ", and a " +anAnimal+ "shaped like a " 
+				+ aNoun + ". It loves to eat " + PluralNoun+ ",altough it will feast on nearly anything.");
 	}
 
 }

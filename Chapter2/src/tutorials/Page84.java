@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Page84 {
 
-	private static Scanner input;
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -13,10 +11,11 @@ public class Page84 {
 		byte aByte ;
 		short aShort ;
 		long aLong ;
+		String Name;
 		
-		
-		input = new Scanner(System.in);
-		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter your name >>");
+		Name = input.nextName();
 		System.out.println("Please enter an integer >>");
 		anInt = input.nextInt(); 
 		System.out.println("Please enter a byte integer>>");
@@ -30,7 +29,7 @@ public class Page84 {
 		System.out.println("The byte is " + aByte);
 		System.out.println("The short is " + aShort);
 		System.out.println("The long is " + aLong);
-	
+		System.out.println("Thank you  " + Name);
 				
 		
 		
