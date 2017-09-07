@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1.
 a.16
 b.10
@@ -31,4 +32,39 @@ f.ScrabbleScore1
 g.ScoreBaseBall
 h.HistoricalEvent
 i.NumberLegs
+=======
+1.
+a.16
+b.10
+c.11
+e.4
+f.3
+g.4
+h.29
+i.4
+j.0
+
+2.
+a.true 
+b.true
+c.false
+d.true
+e.false
+f.false
+g.false
+h.true
+i.true
+j.false
+
+3.
+a.NumberSiblings
+b.FinalGrade
+c.Population
+d.EarthPopulation
+e.NumberPassengers
+f.ScrabbleScore1
+g.ScoreBaseBall
+h.HistoricalEvent
+i.NumberLegs
+>>>>>>> 5bb81d0a9ba79f772f04fcbea3576956b20301ae
 j.AutomobilePrice
