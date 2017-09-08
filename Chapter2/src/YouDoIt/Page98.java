@@ -2,11 +2,13 @@ package YouDoIt;
 import java.util.Scanner;
 public class Page98 {
 
+	private static Scanner input;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int firstNumber, secondNumber, sum, difference ;
 	double	average;
-		Scanner input = new Scanner(System.in);
+		input = new Scanner(System.in);
 		
 		System.out.print("Please enter an integer >>");
 		firstNumber = input.nextInt();

@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class QuartsToGallons {
 
+	private static Scanner input;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		final int quartsInGallons = 4;
@@ -11,7 +13,7 @@ public class QuartsToGallons {
 		int quartsNeeded;
 		int gallonsNeeded;
 		int extraQuarts;
-		Scanner input = new Scanner(System.in);
+		input = new Scanner(System.in);
 		
 		System.out.print("Enter quarts needed>> ");
 		quartsNeeded = input.nextInt();
