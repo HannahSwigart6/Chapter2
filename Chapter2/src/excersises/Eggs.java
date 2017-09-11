@@ -5,22 +5,24 @@ public class Eggs {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	double individualPrice, DozenPrice;
-		int single;
-		int NumberOfEggs, total, individualTotal, DozenTotal; 
+		double Single;
+		double Dozen;
+		int Eggs;
+		double individualTotal,DozenTotal,total ; 
 		
 		input = new Scanner(System.in);
 		
 		System.out.println("How many eggs would you like?>>");
-		NumberOfEggs = input.nextInt();
+		Eggs = input.nextInt();
 		
-		DozenTotal = NumberOfEggs / 12;
-		single =  NumberOfEggs % 12;
-		individualTotal = single * .45;
-		total = (DozenPrice * DozenTotal) + (individualPrice * single); 
+		Dozen = (Eggs / 12);
+		Single = (Eggs % 12);
+		individualTotal =  (Single * .45);
+		DozenTotal = (Dozen * 3.25);
+		total =   individualTotal + DozenTotal;
 		
-		System.out.println("That's " +DozenTotal+ " dozons at " +DozenPrice+ " per dozen with " +individualTotal+ " loose eggs at "+individualPrice+ " for a total "
+		System.out.println("That's " +Dozen+ " dozons at " +DozenTotal+ " per dozen with " +Single+ " loose eggs at "+individualTotal+ " for a total "
 		+ "of " +total+ ".");
 		
 	}
-
-}
+	}
